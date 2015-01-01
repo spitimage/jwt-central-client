@@ -7,7 +7,7 @@
     "url": "https://github.com/spitimage/jwt-central-client"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "author": {
     "name": "Aaron Nielsen",
@@ -19,8 +19,9 @@
     "express-jwt": "^0.5.1"
   },
   "devDependencies": {
-    "nock": "^0.52.4",
     "chai": "^1.10.0",
-    "jsonwebtoken": "^3.2.0"
+    "jsonwebtoken": "^3.2.0",
+    "mocha": "^2.1.0",
+    "nock": "^0.52.4"
   }
 }
