@@ -1,4 +1,7 @@
-# Introduction
+# jwt-central-client
+
+[![Build Status](https://travis-ci.org/spitimage/jwt-central-client.svg?branch=master)](https://travis-ci.org/spitimage/jwt-central-client)
+
 Express middleware for the [jwt-central][jwtc] authentication service.
 
 # Initialization
